@@ -13,6 +13,6 @@ export class FinancialChartTrendlinesComponent {
     public data: any;
 
     constructor(private dataService: FinancialDataService) {
-        this.data = [ this.dataService.getAmzn(), this.dataService.getGoog() ];
+        this.data = [ this.dataService.getAmzn()];
     }
 }
